@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('EkMukta-Regular.eot');
+    src: url('EkMukta-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EkMukta-Regular.woff2') format('woff2'),
+        url('EkMukta-Regular.woff') format('woff'),
+        url('EkMukta-Regular.ttf') format('truetype'),
+        url('EkMukta-Regular.svg#EkMukta-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('EkMukta-Bold.eot');
+    src: url('EkMukta-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EkMukta-Bold.woff2') format('woff2'),
+        url('EkMukta-Bold.woff') format('woff'),
+        url('EkMukta-Bold.ttf') format('truetype'),
+        url('EkMukta-Bold.svg#EkMukta-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('OpenSans-CondensedBold.eot');
+    src: url('OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('OpenSans-CondensedBold.woff2') format('woff2'),
+        url('OpenSans-CondensedBold.woff') format('woff'),
+        url('OpenSans-CondensedBold.ttf') format('truetype'),
+        url('OpenSans-CondensedBold.svg#OpenSans-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('Ailerons.eot');
+    src: url('Ailerons.eot?#iefix') format('embedded-opentype'),
+        url('Ailerons.woff2') format('woff2'),
+        url('Ailerons.woff') format('woff'),
+        url('Ailerons.ttf') format('truetype'),
+        url('Ailerons.svg#Ailerons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('EkMukta-Light.eot');
+    src: url('EkMukta-Light.eot?#iefix') format('embedded-opentype'),
+        url('EkMukta-Light.woff2') format('woff2'),
+        url('EkMukta-Light.woff') format('woff'),
+        url('EkMukta-Light.ttf') format('truetype'),
+        url('EkMukta-Light.svg#EkMukta-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ek Mukta';
+    src: url('EkMukta-ExtraBold.eot');
+    src: url('EkMukta-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('EkMukta-ExtraBold.woff2') format('woff2'),
+        url('EkMukta-ExtraBold.woff') format('woff'),
+        url('EkMukta-ExtraBold.ttf') format('truetype'),
+        url('EkMukta-ExtraBold.svg#EkMukta-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

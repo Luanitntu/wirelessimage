@@ -1,0 +1,66 @@
+#header-page {
+	.sticky {
+		position: relative;
+		z-index: 2;
+		padding: 0 64px;
+
+		.wrap-menu {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 40px;
+
+			.menu-logo {
+				width: 25%;
+			}
+
+			.menu-main {
+				width: 50%;
+
+				.navbar-sticky {
+					ul {
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						display: flex;
+						flex-direction: row;
+						justify-content: space-between;
+
+						li {
+							a {
+								font-size: 24px;
+								font-family: "Ek Mukta Regular";
+								color: #ffffff;
+								line-height: 1.2;
+								text-align: center;
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+
+			.menu-phone {
+				width: 25%;
+				text-align: right;
+
+				a {
+					font-size: 23px;
+					font-family: "Ek Mukta Light";
+					color: #ffffff;
+					line-height: 1.2;
+					text-decoration: none;
+				}
+			}
+
+			.navbar-button {
+				display: none;
+			}
+		}
+	}
+
+	.banner-slide {
+		position: relative;
+		margin-top: -123px;
+		z-index: 1;
+	}
+}

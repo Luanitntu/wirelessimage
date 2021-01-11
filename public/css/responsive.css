@@ -1,0 +1,151 @@
+@media only screen and (max-width: 991px) {
+    #header-page {
+        overflow: unset;
+    }
+
+    #header-page .banner-page img {
+        width: 100%;
+    }
+  /* --------css phone mobile */
+    #header-page .sticky .wrap-menu .phone-desktop {
+        display: none;
+    }
+
+    #header-page .sticky .wrap-menu .phone-mobile {
+        display: block;
+        padding-top: 0px;
+        position: relative;
+        top: 38px;
+    }
+
+    #header-page .sticky .wrap-menu .phone-mobile a {
+        border: 1px solid #ca1f27;
+        font-size: 20px;
+        display: block;
+        padding: 3px 15px;
+    }
+
+    #header-page .sticky .wrap-menu .phone-mobile a i {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        padding: 10px 4px;
+        color: #ca1f27;
+    }
+  /* -----------css button menu-------- */
+    #header-page .sticky .navbar-button {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        z-index: 999999;
+    }
+
+    #header-page .sticky .navbar-button .button-sticky {
+        padding: 7px 10px;
+        border: 0;
+        position: relative;
+        background-color: transparent;
+        outline: none;
+    }
+
+    #header-page .sticky .navbar-button .button-sticky .icon-bar {
+        height: 6px;
+        background-color: #ca1f27;
+        margin: 10px 0;
+        position: relative;
+        display: block;
+        transition: all 0.3s;
+    }
+
+    #header-page .sticky .navbar-button .button-sticky .icon-bar.top-bar {
+        width: 90px;
+    }
+
+    #header-page .sticky .navbar-button .button-sticky .icon-bar.middle-bar {
+        width: 50px;
+    }
+
+    #header-page .sticky .navbar-button .button-sticky .icon-bar.bottom-bar {
+        width: 70px;
+    }
+  /* -------------css menu------------ */
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        background: rgba(205, 32, 40, 0.5);
+        z-index: 9999;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile .navbar-sticky {
+        background-color: #fef1ee;
+        width: 320px;
+        position: fixed;
+        top: 0;
+        left: -320px;
+        z-index: 99999;
+        height: 100%;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        display: inline-block;
+    }
+
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 120px;
+        height: 0;
+        text-align: right;
+    }
+
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul li {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul li a {
+        font-size: 23px;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+  /* ---when click button----- */
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile .navbar-sticky.active {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    body.show-scroll {
+        overflow: hidden;
+    }
+  /* ----------css logo---------- */
+    #header-page .sticky .logo {
+        padding-left: 0;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
