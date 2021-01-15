@@ -1,30 +1,77 @@
+@media only screen and (max-width:1700px) {
+    #page-home .home__about--top {
+        padding-left: 110px;
+    }
+    #page-home .home__about--top .about__top--title h2 {
+        font-size: 200px;
+    }
+    #page-home .home__about--top .about__top--content .top__content--image {
+        left: -55px;
+        top: -125px;
+    }
+    #page-home .home__about--top .about__top--content .top__content--text {
+        padding: 0px 240px 135px 560px;
+    }
+    #page-home .home__about .home__about--bottom .about__bottom--top {
+        padding: 55px 200px 35px 125px;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    #page-home .home__services .home__services--title h3 {
+        font-size: 200px;
+    }
+    #page-home .home__services .home__services--title p {
+        font-size: 50px;
+        top: 140px;
+    }
+    #page-home .home__contact .home__contact--form .contact__form--title h3 {
+        font-size: 200px;
+    }
+    #page-home .home__contact .home__contact--form .contact__form--title p {
+        font-size: 50px;
+        top: 118px;
+    }
+    #page-home .home__about--top .about__top--content .top__content--text {
+        padding: 0px 139px 135px 540px;
+    }
+    #page-home .home__about .home__about--bottom .about__bottom--top {
+        padding: 55px 165px 35px 276px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    #page-home .home__about--top .about__top--content .top__content--text {
+        padding: 0px 50px 135px 540px;
+    }
+    #page-home .home__about .home__about--bottom .about__bottom--top {
+        padding: 55px 100px 35px 350px;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     #header-page {
         overflow: unset;
     }
-
     #header-page .banner-page img {
         width: 100%;
     }
-  /* --------css phone mobile */
+    /* --------css phone mobile */
     #header-page .sticky .wrap-menu .phone-desktop {
         display: none;
     }
-
     #header-page .sticky .wrap-menu .phone-mobile {
         display: block;
         padding-top: 0px;
         position: relative;
         top: 38px;
     }
-
     #header-page .sticky .wrap-menu .phone-mobile a {
         border: 1px solid #ca1f27;
         font-size: 20px;
         display: block;
         padding: 3px 15px;
     }
-
     #header-page .sticky .wrap-menu .phone-mobile a i {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
@@ -34,7 +81,7 @@
         padding: 10px 4px;
         color: #ca1f27;
     }
-  /* -----------css button menu-------- */
+    /* -----------css button menu-------- */
     #header-page .sticky .navbar-button {
         display: block;
         position: absolute;
@@ -43,7 +90,6 @@
         left: 0;
         z-index: 999999;
     }
-
     #header-page .sticky .navbar-button .button-sticky {
         padding: 7px 10px;
         border: 0;
@@ -51,7 +97,6 @@
         background-color: transparent;
         outline: none;
     }
-
     #header-page .sticky .navbar-button .button-sticky .icon-bar {
         height: 6px;
         background-color: #ca1f27;
@@ -60,19 +105,16 @@
         display: block;
         transition: all 0.3s;
     }
-
     #header-page .sticky .navbar-button .button-sticky .icon-bar.top-bar {
         width: 90px;
     }
-
     #header-page .sticky .navbar-button .button-sticky .icon-bar.middle-bar {
         width: 50px;
     }
-
     #header-page .sticky .navbar-button .button-sticky .icon-bar.bottom-bar {
         width: 70px;
     }
-  /* -------------css menu------------ */
+    /* -------------css menu------------ */
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile {
         position: fixed;
         top: 0;
@@ -87,7 +129,6 @@
         -moz-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
     }
-
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile .navbar-sticky {
         background-color: #fef1ee;
         width: 320px;
@@ -101,7 +142,6 @@
         transition: all 0.4s ease-in-out;
         display: inline-block;
     }
-
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul {
         list-style: none;
         display: flex;
@@ -111,35 +151,31 @@
         height: 0;
         text-align: right;
     }
-
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul li {
         position: relative;
         display: inline-block;
         width: 100%;
         margin-bottom: 15px;
     }
-
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-collapse ul li a {
         font-size: 23px;
         padding: 20px;
         text-transform: uppercase;
     }
-  /* ---when click button----- */
+    /* ---when click button----- */
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile.active {
         opacity: 1;
         visibility: visible;
     }
-
     #header-page .sticky .wrap-header-top .wrap-header-menu .navbar-menu-mobile .navbar-sticky.active {
         left: 0;
         opacity: 1;
         visibility: visible;
     }
-
     body.show-scroll {
         overflow: hidden;
     }
-  /* ----------css logo---------- */
+    /* ----------css logo---------- */
     #header-page .sticky .logo {
         padding-left: 0;
         display: inline-block;
