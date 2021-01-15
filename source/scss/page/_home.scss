@@ -1,3 +1,428 @@
-#page{
-    color:blue;
+#page-home {
+    .home__services {
+        .home__services--title {
+            text-align: center;
+            h3 {
+                font-size: 250px;
+                font-family: "Ailerons";
+                color: #5959591a;
+                text-transform: uppercase;
+                line-height: 1.2;
+                display: inline-block;
+                position: relative;
+            }
+            p {
+                font-size: 70px;
+                font-family: "Ek Mukta";
+                color: #ef4323;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.2;
+                display: inline-block;
+                position: absolute;
+                top: 169px;
+                left: 0;
+                width: 100%;
+            }
+            h5 {
+                font-size: 20px;
+                font-family: "Ek Mukta Light";
+                color: #3b3b3b;
+                line-height: 1.2;
+                margin-top: 20px;
+            }
+        }
+        .home__services--content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+            .services--item {
+                cursor: pointer;
+                width: 32%;
+                text-align: center;
+                background: #ffffff;
+                -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.26);
+                box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.26);
+                margin-bottom: 30px;
+                padding: 30px;
+                .item__title {
+                    margin-top: 25px;
+                    h2 {
+                        font-size: 30px;
+                        font-family: "Ek Mukta";
+                        color: #ef4323;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 1.2;
+                    }
+                }
+                .item__content {
+                    padding: 0 14px;
+                    p {
+                        font-size: 21px;
+                        font-family: "Ek Mukta Light";
+                        color: #3b3b3b;
+                        line-height: 1.667;
+                    }
+                }
+            }
+        }
+        .home__services--paralax {
+            text-align: center;
+            background: url('../images/paralax-services.jpg')no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            padding: 110px 0 50px;
+            margin-top: -90px;
+            p {
+                font-size: 20px;
+                font-family: "Ek Mukta Light";
+                color: #000000;
+                line-height: 1.6;
+            }
+        }
+    }
+    .home__about {
+        &--top {
+            position: relative;
+            background: #1f1f1f;
+            padding-left: 190px;
+            &:before {
+                content: '';
+                width: 76px;
+                height: 228px;
+                top: -86px;
+                left: 0;
+                background: url(../images/before-about.png) no-repeat;
+                position: absolute;
+            }
+            .about__top--title {
+                h2 {
+                    font-size: 250px;
+                    font-family: "Ailerons";
+                    color: #8181811a;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    span {
+                        font-size: 70px;
+                        font-family: "Ek Mukta";
+                        color: #ef4323;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        line-height: 1.2;
+                        position: relative;
+                        top: -55px;
+                        left: -50px;
+                    }
+                }
+            }
+            .about__top--content {
+                display: flex;
+                position: relative;
+                .top__content--image {
+                    position: absolute;
+                    left: -56px;
+                    top: -175px;
+                    z-index: 2;
+                }
+                .top__content--text {
+                    padding: 0px 280px 135px 600px;
+                    p {
+                        font-size: 20px;
+                        font-family: "Ek Mukta Light";
+                        color: #e7e7e7;
+                        line-height: 1.6;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .home__about--bottom {
+            max-width: 1370px;
+            margin-left: auto;
+            margin-right: 0;
+            margin-bottom: 100px;
+            .about__bottom--top {
+                background: #ef4323;
+                padding: 55px 300px 35px 60px;
+                margin-top: -100px;
+                position: relative;
+                z-index: 1;
+                &:before {
+                    content: '';
+                    width: 244px;
+                    height: 100px;
+                    top: 111px;
+                    left: -188px;
+                    background: url(../images/before-about-bottom.png) no-repeat;
+                    position: absolute;
+                    z-index: 1;
+                }
+                p {
+                    font-size: 20px;
+                    font-family: "Ek Mukta Light";
+                    color: #ffffff;
+                    line-height: 1.5;
+                    text-align: left;
+                    margin-bottom: 0;
+                }
+            }
+            .about__bottom--bottom {
+                padding-left: 70px;
+                margin-top: 20px;
+                h4 {
+                    font-size: 26px;
+                    font-family: "Ek Mukta";
+                    color: #ef4323;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+    .home__contact {
+        .home__contact--brand {
+            .contact__brand--paralax {
+                background: url('../images/paralax-contact.jpg')no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                padding: 80px 0 77px;
+                .paralax__content {
+                    padding-left: 44%;
+                    p {
+                        font-size: 60px;
+                        font-family: "Ailerons";
+                        color: #ffffff;
+                        text-transform: uppercase;
+                        line-height: 0.833;
+                        margin-bottom: 0;
+                    }
+                    h2 {
+                        font-size: 100px;
+                        font-family: "Ailerons";
+                        color: rgb(255, 255, 255);
+                        text-transform: uppercase;
+                        line-height: 0.5;
+                        position: relative;
+                        margin-left: 270px;
+                        padding-left: 87px;
+                        &:before {
+                            content: '';
+                            width: 67px;
+                            height: 40px;
+                            top: 35px;
+                            left: 0;
+                            background: url(../images/before-paralax-contact.png) no-repeat;
+                            position: absolute;
+                        }
+                    }
+                }
+            }
+            .contact__brand--logo {
+                margin: 0 90px;
+                display: flex;
+                justify-content: space-around;
+                padding: 60px 0;
+            }
+        }
+        .home__contact--form {
+            background: #1f1f1f;
+            .contact__form--title {
+                text-align: center;
+                position: relative;
+                h3 {
+                    font-size: 250px;
+                    font-family: "Ailerons";
+                    color: rgba(129, 129, 129, 0.102);
+                    text-transform: uppercase;
+                    line-height: 1;
+                    display: inline-block;
+                    position: relative;
+                }
+                p {
+                    font-size: 70px;
+                    font-family: "Ek Mukta";
+                    color: #ef4323;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    display: inline-block;
+                    position: absolute;
+                    top: 145px;
+                    left: -6px;
+                    width: 100%;
+                    z-index: 2;
+                }
+                h5 {
+                    font-size: 20px;
+                    font-family: "Ek Mukta Light";
+                    color: #e7e7e7;
+                    line-height: 1.2;
+                    margin-top: 20px;
+                }
+            }
+            .contact__form--content {
+                margin-top: 40px;
+                padding-bottom: 90px;
+                .content__info {
+                    h2 {
+                        font-size: 40px;
+                        font-family: "Ek Mukta";
+                        color: #ef4323;
+                        font-weight: bold;
+                        line-height: 1.2;
+                        text-align: left;
+                    }
+                    ul {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        li {
+                            position: relative;
+                            margin-bottom: 7px;
+                            padding-left: 37px;
+                            &:before {
+                                content: '';
+                                top: 0;
+                                left: 0;
+                                position: absolute;
+                            }
+                            &:nth-child(1):before {
+                                width: 21px;
+                                height: 21px;
+                                background: url('../images/icon-address.png')no-repeat;
+                            }
+                            &:nth-child(2):before {
+                                top: 5px;
+                                width: 19px;
+                                height: 19px;
+                                background: url('../images/icon-schedule.png')no-repeat;
+                            }
+                            &:nth-child(3):before {
+                                top: 8px;
+                                width: 19px;
+                                height: 13px;
+                                background: url('../images/icon-mail.png')no-repeat;
+                            }
+                            &:nth-child(4):before {
+                                top: 3px;
+                                width: 13px;
+                                height: 23px;
+                                background: url('../images/icon-phone.png')no-repeat;
+                            }
+                            &:nth-child(5):before {
+                                top: 5px;
+                                width: 23px;
+                                height: 28px;
+                                background: url('../images/icon-fax.png')no-repeat;
+                            }
+                            p,
+                            a {
+                                font-size: 20px;
+                                font-family: "Ek Mukta Light";
+                                color: #e7e7e7;
+                                line-height: 1.5;
+                                text-align: left;
+                                margin-bottom: 0;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .content__form {
+                    h2 {
+                        font-size: 40px;
+                        font-family: "Ek Mukta";
+                        color: #ef4323;
+                        font-weight: bold;
+                        line-height: 1.2;
+                        text-align: left;
+                    }
+                    .wrap-input {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 12px;
+                        .input-name,
+                        .input-email {
+                            width: 49%;
+                        }
+                        .input-textarea {
+                            width: 100%;
+                        }
+                        input[type="text"],
+                        input[type="tel"] {
+                            width: 100%;
+                            border: 1px solid #a5a5a5;
+                            border-radius: 3px;
+                            background: #1f1f1f;
+                            font-size: 20px;
+                            font-family: "Ek Mukta Light";
+                            color: #e7e7e7;
+                            line-height: 1.5;
+                            padding: 10px 0 10px 20px;
+                        }
+                        textarea {
+                            width: 100%;
+                            border: 1px solid #a5a5a5;
+                            border-radius: 3px;
+                            background: #1f1f1f;
+                            font-size: 20px;
+                            font-family: "Ek Mukta Light";
+                            color: #e7e7e7;
+                            line-height: 1.5;
+                            height: 95px;
+                            resize: none;
+                            padding: 10px 0 10px 20px;
+                        }
+                        input::placeholder,
+                        textarea::placeholder {
+                            font-size: 20px;
+                            font-family: "Ek Mukta Light";
+                            color: #e7e7e7;
+                            line-height: 1.5;
+                            opacity: 1;
+                        }
+                    }
+                    .wrap-btn {
+                        display: flex;
+                        justify-content: flex-end;
+                        .btn-submit {
+                            display: inline-block;
+                            position: relative;
+                            &:before {
+                                content: '';
+                                top: 3px;
+                                left: 3px;
+                                width: 0;
+                                height: 0;
+                                border-bottom: 50px solid #f46045;
+                                border-right: 50px solid transparent;
+                                position: absolute;
+                            }
+                            &:after {
+                                content: '';
+                                width: 15px;
+                                height: 15px;
+                                top: 23px;
+                                left: 27px;
+                                background: url(../images/after-btn-submit.png) no-repeat;
+                                position: absolute;
+                            }
+                            input[type="submit"] {
+                                background: #ef4323;
+                                border-radius: 0;
+                                border: 0;
+                                font-size: 23px;
+                                font-family: "Ek Mukta Light";
+                                color: #ffffff;
+                                line-height: 1.739;
+                                padding: 10px 35px 7px 45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

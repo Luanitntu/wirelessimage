@@ -1,0 +1,77 @@
+#footer {
+    .footer__top {
+        background: #131313;
+        position: relative;
+        padding: 50px 0;
+        &:before {
+            content: '';
+            width: 172px;
+            height: 89px;
+            top: 35px;
+            left: 147px;
+            background: url(../images/before-img-footer.png) no-repeat;
+            position: absolute;
+        }
+        .footer__top--logo {
+            position: absolute;
+            top: -82px;
+            img {
+                position: relative;
+            }
+        }
+        .footer__top--social {
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: 495px;
+                li {
+                    position: relative;
+                    padding-left: 15px;
+                    &:before {
+                        content: '';
+                        width: 4px;
+                        height: 4px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        left: 0;
+                        background: #ef4323;
+                        position: absolute;
+                    }
+                    a {
+                        font-size: 24px;
+                        font-family: "Ek Mukta";
+                        color: #ffffff;
+                        line-height: 1.2;
+                        text-align: left;
+                        text-decoration: none;
+                        &:hover {
+                            color: #ef4623;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer__bottom {
+        .footer__bottom--create {
+            text-align: center;
+            padding: 7px 0;
+            p,
+            a {
+                font-size: 18px;
+                font-family: "Ek Mukta Light";
+                color: #767676;
+                line-height: 1.2;
+                margin-bottom: 0;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #ef4623;
+            }
+        }
+    }
+}
