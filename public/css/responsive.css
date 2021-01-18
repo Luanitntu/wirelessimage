@@ -149,6 +149,10 @@
         background-attachment: unset;
     }
 
+    #page-home .home__contact .home__contact--form .contact__form--title h3.mobile {
+        display: none;
+    }
+
     #footer .footer__top .footer__top--social ul {
         margin-left: 360px;
     }
@@ -280,6 +284,18 @@
         overflow: hidden;
     }
   /*==========================================*/
+    #page-home .home__contact .home__contact--form .contact__form--title h3.desktop {
+        display: none;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--title h3.mobile {
+        display: block;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--title h5 {
+        margin-top: 48px;
+    }
+
     #page-home .home__services .home__services--content .services--item .item__title h2 {
         font-size: 21px;
     }
@@ -429,6 +445,40 @@
     }
 }
 
+@media only screen and (max-width: 750px) {
+    #page-home .home__services .home__services--title h3 {
+        font-size: 155px;
+    }
+
+    #page-home .home__services .home__services--title p {
+        font-size: 41px;
+        top: 66px;
+    }
+
+    #page-home .home__about .home__about--bottom .about__bottom--top p {
+        font-size: 31px;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--title h3 {
+        font-size: 155px;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--title p {
+        font-size: 40px;
+        top: 90px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #page-home .home__about .home__about--bottom .about__bottom--top p {
+        font-size: 28px;
+    }
+
+    #page-home .home__contact .home__contact--brand .contact__brand--paralax .paralax__content h2 {
+        margin-left: 170px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     #header-page .sticky {
         padding: 0 15px;
@@ -571,6 +621,19 @@
 
     #footer .footer__top .footer__top--social ul li a {
         font-size: 20px;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--content .content__form .wrap-input {
+        flex-wrap: wrap;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--content .content__form .wrap-input .input-name {
+        margin-bottom: 13px;
+    }
+
+    #page-home .home__contact .home__contact--form .contact__form--content .content__form .wrap-input .input-name,
+  #page-home .home__contact .home__contact--form .contact__form--content .content__form .wrap-input .input-email {
+        width: 100%;
     }
 }
 

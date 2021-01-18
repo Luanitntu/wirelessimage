@@ -447,6 +447,10 @@
     position: relative;
 }
 
+#page-home .home__contact .home__contact--form .contact__form--title h3.mobile {
+    display: none;
+}
+
 #page-home .home__contact .home__contact--form .contact__form--title p {
     font-size: 70px;
     font-family: "Ek Mukta";
@@ -648,6 +652,10 @@
     color: #ffffff;
     line-height: 1.739;
     padding: 10px 35px 7px 45px;
+}
+
+#page-home .home__contact .home__contact--form .contact__form--content .content__form .wrap-btn .btn-submit input[type="submit"]:hover {
+    background: rgba(239, 67, 35, 0.7);
 }
 
 #footer .footer__top {
