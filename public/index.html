@@ -342,7 +342,10 @@
     <!-- main js -->
     <script type="text/javascript" src="js/myscript.js"></script>
     <script>
-        new WOW().init();
+        var wow = new WOW({
+            mobile: false,
+        });
+        wow.init();
     </script>
 
 </html>
