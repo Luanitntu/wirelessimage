@@ -1,8 +1,40 @@
+.flexslider .slides img.desktop {
+    display: block;
+}
+
+.flexslider .slides img.mobile {
+    display: none;
+}
+
+@keyframes stickySlideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 #header-page {
     .sticky {
         position: relative;
         z-index: 2;
         padding: 0 64px;
+        &.fixed {
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 999;
+            -webkit-animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+            -moz-animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+            animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+            background: rgba(239, 67, 35, 0.8);
+            margin-top: 0;
+            padding: 0px 64px 10px;
+        }
         .wrap-menu {
             display: flex;
             justify-content: space-between;

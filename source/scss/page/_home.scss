@@ -224,6 +224,16 @@
                 display: flex;
                 justify-content: space-around;
                 padding: 60px 0;
+                .logo-item {
+                    img {
+                        &.desktop {
+                            display: block;
+                        }
+                        &.tablet {
+                            display: none;
+                        }
+                    }
+                }
             }
         }
         .home__contact--form {

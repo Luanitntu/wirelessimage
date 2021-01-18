@@ -62,6 +62,14 @@
     }
 }
 
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
 @import 'component/header';
 @import 'page/home';
 @import 'component/footer';
